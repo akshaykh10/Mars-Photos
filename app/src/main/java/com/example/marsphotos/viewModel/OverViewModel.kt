@@ -8,6 +8,10 @@ import com.example.marsphotos.model.MarsPhoto
 import com.example.marsphotos.network.MarsApi
 import kotlinx.coroutines.launch
 
+
+/**
+ * [MarsApiStatus] holds the constants which we can use to track the API service call
+ */
 enum class MarsApiStatus{
     LOADING,
     ERROR,
@@ -24,7 +28,9 @@ class OverViewModel : ViewModel(){
     private val _photos= MutableLiveData<List<MarsPhoto>>()
 
     val photos: LiveData<List<MarsPhoto>> = _photos
-
+    /**
+     * Call getMarsPhotos() on init so we can display status immediately.
+     */
     init {
         getMarsPhoto()
     }
