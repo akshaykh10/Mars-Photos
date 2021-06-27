@@ -5,7 +5,7 @@
 Displays pictures of the surface of Mars fetched from NASA API with cool animations.
 
 ## :camera_flash: Screenshots
-![Demo] (https://user-images.githubusercontent.com/75973741/123536322-42e6bd80-d747-11eb-861b-8ca9c6598929.gif)
+![](https://user-images.githubusercontent.com/75973741/123536322-42e6bd80-d747-11eb-861b-8ca9c6598929.gif)
 
 ## Installation(.apk)
 
@@ -13,7 +13,7 @@ Displays pictures of the surface of Mars fetched from NASA API with cool animati
 
 ## Architecture
 
-Built on MVVM architecture. Click below to know more about it:
+Built on MVVM architecture. To know more about it-  
 Start here - [Guide to app Architecture](https://developer.android.com/jetpack/guide?gclid=CjwKCAjww-CGBhALEiwAQzWxOozt6NGlGIuA53vn-lW5UhXC9LkB2EE-TF_hVpG-6EgIMtKqbPzFZRoC3gEQAvD_BwE&gclsrc=aw.ds#mobile-app-ux)
 
 
